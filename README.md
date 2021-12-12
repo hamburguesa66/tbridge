@@ -8,6 +8,10 @@ Antes de comenzar, se requiere tener instalado.
 * Maven (3.6.0 o superior).
 * Java 8.
 
+Ademas, se debe contar con:
+* Un tablero de Trello.
+* Etiquetas (labels) definidos en ese tablero: "Bug" y los que se requieran (por ejemplo, "Maintenance","Research","Test").
+
 1. Clonar la rama 'master' del repositorio.
 
   ```
@@ -36,7 +40,7 @@ Antes de comenzar, se requiere tener instalado.
 1. POST "/"
 
 > Permite crear una tarea y registrarla en Trello.
-> Los parámetros disponibles son: 'type' (obligatorio, "issue|bug|task"), 'title', 'description' y 'category'.
+> Los parámetros disponibles son: 'type' (obligatorio, "issue|bug|task"), 'title', 'description' y 'category' (corresponde al nombre de una etiquta de Trello).
 
 
 > Ejemplo de una request para crear una tarea de tipo "Task":
