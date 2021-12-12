@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "trello.api.url",
+    "type": "java.lang.String",
+    "description": "URL base de la API de Trello."
+  },
+  {
+    "name": "trello.api.key",
+    "type": "java.lang.String",
+    "description": "Clave de usuario para consultar la API de Trello."
+  },
+  {
+    "name": "trello.api.token",
+    "type": "java.lang.String",
+    "description": "Token (asociado a la clave de usuario) para consultar la API de Trello."
+  },
+  {
+    "name": "trello.board.id",
+    "type": "java.lang.String",
+    "description": "ID del tablero de Trello a utilizar."
+  }
+]}
